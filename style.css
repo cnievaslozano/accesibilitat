@@ -25,6 +25,12 @@ button {
     background: none;
     padding: 0;
     cursor: pointer;
+    font-weight: bold;
+}
+
+
+input {
+    
 }
 
 .menu {
@@ -43,8 +49,7 @@ button {
     margin: 0;
 }
 
-.menu li:first-child,
-.menu li:last-child {
+.menu li {
     color: white;
 }
 
@@ -65,7 +70,7 @@ button {
 .menu form button {
     border-radius: 5px;
     padding: 8px;
-    background-color: #047BFE;
+    background-color: #1c71d8;
     color: white;
 }
 
@@ -77,7 +82,7 @@ button {
 .contenedor h1 {
     margin-top: 20px;
     font-size: 50px;
-    color: #57a2f7;
+    color: #490918;
     font-weight: lighter;
     text-align: center;
 }
@@ -85,6 +90,18 @@ button {
 .contenedor h2 {
     margin-top: 20px;
     font-size: 22px;
-    color: #57a2f7;
+    color: #490918;
     font-weight: lighter;
 }
+.galeria {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .galeria img {
+    flex: 1 1 calc(25% - 10px); /* Distribuye en 4 columnas con margen */
+    margin: 5px;
+    margin: auto;
+  }
+  
