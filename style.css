@@ -94,13 +94,15 @@ input {
     font-weight: lighter;
 }
 .galeria {
+    margin-top: 50px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    gap:  40px;
   }
   
   .galeria img {
-    flex: 1 1 calc(25% - 10px); /* Distribuye en 4 columnas con margen */
+    flex: 1 1 calc(25% - 10px); 
     margin: 5px;
     margin: auto;
   }
